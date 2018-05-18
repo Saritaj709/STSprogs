@@ -5,6 +5,17 @@ b. I/P ­> N number of integer, and N integer input array
 c. Logic ­> Find distinct triples (i, j, k) such that a[i] + a[j] + a[k] = 0
 d. O/P ­> One Output is number of distinct triplets as well as the second output is to
 print the distinct triplets. */
+/******************************************************************************
+ *  Compilation:  javac -d bin ThreeInteger.java
+ *  Execution:    java -cp bin com.bridgelabz.util.ThreeInteger a[] x
+ *  
+ *  Purpose:Determines the count when sum of three elements is 0
+ *
+ *  @author  Sarita
+ *  @version 1.0
+ *  @since  05-17-2-18
+ *
+ ******************************************************************************/
 
 package com.bridgelabz.functionprogs;
 import com.bridgelabz.utility.*;
@@ -15,7 +26,7 @@ public class ThreeInteger {
 	 int x;
 	int a[]= {0,-1,-2,3,1,2,-3,-6,6};
 	x=a.length;
-	 Util.countTriplet(a,x);
+	 Utility.countTriplet(a,x);
 	
  }
 
